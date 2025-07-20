@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    min-height: 50hv;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.box{
+    font-size: 20px;
+    border: 2px solid rgb(136, 7, 7);
+    background-color: rgb(250, 194, 187);
+    color: rgb(136, 7, 7);
+}
